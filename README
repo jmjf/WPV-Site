@@ -1,0 +1,14 @@
+This repository contains initial work on a base WordPress project repo. The idea is that this repo will be included in a larger project repo (either as a submodule or as a subtree or maybe using something fancier yet). The larger project repo will include a Vagrant VM and configuration that can be based on a production scenario.
+
+What's Here
+WordPress is a submodule in wp.
+
+The plugins, mu-plugins, uploads, and content directories are in the project root.
+
+The content/themes directory includes TwentyThirteen just so there's something there and TwentyTwelve for people who don't like TwentyThirteen's color scheme. (This may change in the future.)
+
+The project root includes both a shell script (for Linux/Mac) and a batch file (for Windows) to update the WordPress submodule. (These are untested at the moment and may have issues--especially the batch file.)
+
+I'm setting this repo up so I can include it for the time being. I may throw it away if it doesn't work out the way I'm hoping it will.
+
+This repo is based on other setups I've looked at including Mark Jaquith's WordPress-Skeleton and Matt Walters' post at from http://mattwalters.net/2013/08/13/wordpress-with-git/
